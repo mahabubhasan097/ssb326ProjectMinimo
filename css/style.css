@@ -1,0 +1,232 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+/* common start */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    
+}
+/* common end */
+/* header start */
+header{
+    padding: 20px;
+}
+.container{
+    margin: 0 auto;
+    width: 80%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+.logo{
+    margin-top: 10px;
+    width: 13%;
+    float: left;
+    /* border: 1px solid black; */
+}
+.logo img{
+    width: 100%;
+}
+.menu{
+    width: 70%;
+    float: right;
+    /* border: 1px solid teal; */
+}
+.menu ul{
+    float: right;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+    margin:0 50px;
+    padding: 5px;
+    display: inline-block;
+    color: #626262;
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu ul li:last-child a{
+    /* padding-right: 0; */
+    margin-right: 0;
+}
+.menu ul li a:hover{
+    border-bottom: 1px solid #626262 ;
+}
+/* header end */
+/* banner start */
+.banner{}
+.b-img{}
+.b-img img{
+    width: 100%;
+}
+/* banner end */
+/* getway start */
+.getway{
+    padding: 75px 0;
+}
+.container2{
+    margin: 0 auto;
+    width: 70%;
+    overflow: hidden;
+}
+.g-content{
+}
+.cspan{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color:#b4ad9e ;
+    text-transform: uppercase;
+    display: block;
+}
+.ch1{
+    margin: 20px 0 30px;
+    font-size: 30px;
+    font-weight: 400;
+}
+.cp{
+    margin-top: 0;
+    margin-bottom: 50px;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+/* getway end */
+/* blog start */
+.blog{
+    padding: 75px 0;
+}
+.single-blog{
+    margin-bottom: 10px;
+    float: left;
+    width: 47%;
+}
+.single-blog img{
+    margin-bottom: 25px;
+    width: 100%;
+}
+.single-blog:nth-child(even){
+    margin-left: 6%;
+}
+.load{
+    /* padding: 70px 0; */
+    text-align: center;
+}
+.load button{
+    margin: 50px 0 100px;
+    width: 165px;
+    height: 60px;
+    background-color: transparent;
+    border: 1px solid #000;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    cursor: pointer;
+    transition: .3s;
+}
+.load button:hover{
+    background-color: #626262;
+    color: white;
+}
+/* blog end */
+/* news start */
+.news{
+    background-color: #f0f0f0;
+    padding: 50px 0;
+    
+}
+.container3{
+    width: 50%;
+    margin: 50px auto;
+}
+.signup{
+    text-align: center;
+}
+.signup h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.forform{
+    width: 450px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    position: relative;
+}
+.forform input{
+    padding: 10px 20px 10px 10px;
+    width: 380px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+}
+.forform button{
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+/* news end */
+/* footer start */
+.ft{
+    background-color: #f0f0f0;
+}
+.terms{
+    margin: 40px 0 35px;
+    width: 30%;
+    float: left;
+}
+.terms ul{
+    float: left;
+}
+.terms ul li{
+    list-style: none;
+    float: right;
+}
+.terms ul li a{
+    padding:0 10px;
+    color: #202020;
+    display: inline-block;
+    text-decoration: none;
+}
+.terms ul li:last-child a{
+padding-left: 0;
+}
+.smedia{
+    margin: 40px 0 35px;
+    width: 20%;
+    float: right;
+}
+.smedia ul{
+    float: right;
+}
+.smedia ul li{
+    list-style: none;
+    float: left;
+}
+.smedia li span{
+    margin-right: 10px;
+    color: #202020;
+    cursor: pointer;
+}
+.smedia ul li a{
+    padding: 0 15px;
+    display: inline-block;
+    color: #626262;
+    text-decoration: none;
+}
+.smedia ul li:last-child a{
+    padding-right: 0;
+}
+/* footer end */
